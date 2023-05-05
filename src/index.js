@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import ReactPlayer from "react-player";
 import './components/index.css';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Img from "./components/Img";
 
 
 
@@ -10,8 +14,11 @@ import './components/index.css';
 function Roll() {
     return (
         <>
-            <h1> Position, position and position </h1>
+            <Header />
+            <Navbar />
+            <Img />
             <ReactPlayer url='https://fb.watch/k5blMm1Ac9/' />
+            <Footer />
         </>
     );
 

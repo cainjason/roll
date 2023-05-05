@@ -11,7 +11,7 @@ function Roll() {
     return (
         <>
             <h1> Position, position and position </h1>
-            <ReactPlayer id='section' url='https://fb.watch/k5blMm1Ac9/' />
+            <ReactPlayer url='https://fb.watch/k5blMm1Ac9/' />
         </>
     );
 
